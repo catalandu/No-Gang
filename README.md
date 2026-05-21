@@ -1,34 +1,33 @@
 # No Gang
 
-**No Gang** est un script FiveM permettant d’empêcher la création et l’utilisation de gangs non autorisés sur votre serveur.
+**No Gang** est un script FiveM conçu pour empêcher les IA / PNJ de former des groupes hostiles ou des gangs en jeu.
 
-L’objectif est de garder un environnement roleplay propre, structuré et équilibré, en limitant les regroupements illégaux abusifs et les organisations criminelles non encadrées par le staff.
+Il permet d’améliorer l’ambiance générale du serveur en limitant certains comportements agressifs ou incohérents des NPC, afin d’obtenir un environnement plus propre, plus réaliste et mieux contrôlé.
 
 ---
 
 ## Fonctionnalités
 
-- Blocage des gangs non officiels
-- Réduction des abus liés aux regroupements illégaux
-- Amélioration de la qualité du roleplay
-- Meilleur contrôle des activités criminelles
-- Configuration simple et rapide
+- Empêche la formation de gangs de PNJ
+- Réduit certains comportements agressifs des IA
+- Améliore le réalisme en jeu
+- Rend l’environnement plus propre et cohérent
+- Installation simple et rapide
 
 ---
 
 ## Compatibilité
 
 - **FiveM**
-- **ESX**
-- Peut être adapté selon votre base serveur
+- Compatible avec la majorité des bases serveur
 
 ---
 
 ## Installation
 
 1. Téléchargez ou clonez la ressource dans le dossier `resources` de votre serveur.
-2. Renommez le dossier si nécessaire en `no_gang`
-3. Ajoutez la ressource dans votre `server.cfg` :
+2. Renommez le dossier en `no_gang` si nécessaire.
+3. Ajoutez la ligne suivante dans votre `server.cfg` :
 
 ```cfg
 ensure no_gang
